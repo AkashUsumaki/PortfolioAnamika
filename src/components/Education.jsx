@@ -9,10 +9,10 @@ function Education() {
 
         <div className="timeline-item left">
           <div className="content">
-            <h2>B.E Engineering</h2>
-            <h3>Karpagam College of Engineering and Technology</h3>
+            <h2>B.Tech Engineering</h2>
+            <h3>Karpagam College of Engineering.</h3>
             <p>2024 - 2028</p>
-            <p>CGPA: 8.85 (Example)</p>
+            <p>CGPA: 8.85</p>
           </div>
         </div>
 
@@ -20,7 +20,7 @@ function Education() {
           <div className="content">
             <h2>Higher Secondary (12th)</h2>
             <h3>Little Flower Matric Hr. Sec. School</h3>
-            <p>2022 - 2024</p>
+            <p>2023 - 2024</p>
             <p>Percentage: 94%</p>
           </div>
         </div>

@@ -9,63 +9,70 @@
   font-size: 3rem;
   color: #3b82f6;
   margin-bottom: 50px;
+  font-weight: 700;
 }
 
 .center-card {
-  width: 280px;
+  width: 320px;
   margin: 0 auto 60px;
-
   padding: 30px;
   text-align: center;
 
   border-radius: 20px;
-  background: rgba(255,255,255,0.05);
+  background: rgba(255, 255, 255, 0.05);
 
   border: 2px solid #3b82f6;
 
   box-shadow:
-    0 0 20px rgba(59,130,246,.5),
-    0 0 50px rgba(59,130,246,.3);
+    0 0 20px rgba(59, 130, 246, 0.5),
+    0 0 50px rgba(59, 130, 246, 0.25);
 }
 
 .center-card h2 {
   color: #3b82f6;
   margin-bottom: 10px;
+  font-size: 1.7rem;
 }
 
 .center-card p {
-  color: #fff;
+  color: #dbeafe;
 }
 
+/* Masonry Layout */
 .skills-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 30px;
+  column-count: 3;
+  column-gap: 25px;
 }
 
 .skill-card {
-  background: rgba(255,255,255,0.05);
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 25px;
 
-  border: 1px solid rgba(59,130,246,.3);
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(59, 130, 246, 0.3);
 
-  border-radius: 20px;
+  border-radius: 18px;
+  padding: 22px;
 
-  padding: 25px;
+  break-inside: avoid;
 
-  transition: 0.4s ease;
+  transition: all 0.3s ease;
 }
 
 .skill-card:hover {
-  transform: translateY(-12px);
+  transform: translateY(-8px);
 
   box-shadow:
-    0 0 20px rgba(59,130,246,.5),
-    0 0 40px rgba(59,130,246,.2);
+    0 0 20px rgba(59, 130, 246, 0.5),
+    0 0 40px rgba(59, 130, 246, 0.2);
 }
 
 .skill-card h3 {
   color: #60a5fa;
-  margin-bottom: 20px;
+  margin-bottom: 18px;
+  font-size: 1.15rem;
+  font-weight: 600;
 }
 
 .skill-tags {
@@ -75,23 +82,41 @@
 }
 
 .skill-tags span {
-  background: rgba(59,130,246,.15);
-  padding: 8px 15px;
-  border-radius: 25px;
-  color: white;
-  transition: .3s;
+  background: rgba(59, 130, 246, 0.15);
+  border: 1px solid rgba(59, 130, 246, 0.25);
+
+  padding: 8px 14px;
+  border-radius: 30px;
+
+  color: #fff;
+  font-size: 0.9rem;
+
+  transition: all 0.3s ease;
 }
 
 .skill-tags span:hover {
   background: #3b82f6;
+  transform: scale(1.05);
 }
 
-@media(max-width:768px) {
+/* Tablet */
+@media (max-width: 992px) {
+  .skills-grid {
+    column-count: 2;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
   .skills-title {
-    font-size: 2.2rem;
+    font-size: 2.3rem;
   }
 
   .center-card {
     width: 100%;
+  }
+
+  .skills-grid {
+    column-count: 1;
   }
 }

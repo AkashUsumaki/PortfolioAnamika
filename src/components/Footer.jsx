@@ -4,7 +4,7 @@ function Footer() {
   return (
     <footer className="footer">
       <p>
-        © 2026 Anamika R - KCET - B.Tech AI & DS.
+        © 2026 Anamika R - KCE - B.Tech AI & DS.
       </p>
     </footer>
   );

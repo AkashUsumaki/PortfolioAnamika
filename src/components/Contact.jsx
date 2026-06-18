@@ -5,6 +5,7 @@ import {
   FaLinkedin,
   FaGithub,
 } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 
 function Contact() {
   return (
@@ -17,6 +18,17 @@ function Contact() {
       </p>
 
       <div className="contact-container">
+
+        <a
+          href="mailto:radhakrishnaanamika890@gmail.com"
+          className="contact-card"
+        >
+          <FaEnvelope className="contact-icon" />
+          <div>
+            <h3>Email(Personal)</h3>
+            <p>radhakrishnaanamika890@gmail.com</p>
+          </div>
+        </a>
         
         <a
           href="mailto:717824I108@kce.ac.in"
@@ -24,7 +36,7 @@ function Contact() {
         >
           <FaEnvelope className="contact-icon" />
           <div>
-            <h3>Email</h3>
+            <h3>Email (Official)</h3>
             <p>717824I108@kce.ac.in</p>
           </div>
         </a>
@@ -41,7 +53,7 @@ function Contact() {
         </a>
 
         <a
-          href="https://www.linkedin.com/in/anamika-radha-krishna-a5b35b331"
+          href="https://www.linkedin.com/in/anamika282006"
           target="_blank"
           rel="noopener noreferrer"
           className="contact-card"
@@ -49,7 +61,7 @@ function Contact() {
           <FaLinkedin className="contact-icon" />
           <div>
             <h3>LinkedIn</h3>
-            <p>linkedin.com/in/anamika-radha-krishna-a5b35b331</p>
+            <p>linkedin.com/in/anamika282006</p>
           </div>
         </a>
 
@@ -65,6 +77,18 @@ function Contact() {
             <p>github.com/radhakrishnaanamika890-max</p>
           </div>
         </a>
+        <a
+  href="https://x.com/anami_28bph2"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="contact-card"
+>
+  <FaXTwitter className="contact-icon" />
+  <div>
+    <h3>X (Twitter)</h3>
+    <p>@anami_28bph2</p>
+  </div>
+</a>
 
       </div>
     </section>

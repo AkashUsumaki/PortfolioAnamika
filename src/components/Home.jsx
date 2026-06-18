@@ -28,8 +28,9 @@ function Home() {
         />
 
         <p>
-          Passionate AI Developer focused on creating innovative,
-          data-driven solutions using the latest AI technologies.
+          Aspiring AI & Data Science Engineer with expertise in Machine Learning, Deep Learning, NLP, Computer Vision, LLMs, 
+and Data Analytics. Skilled in Python and modern AI technologies, with experience developing intelligent solutions for 
+real-world problems through data-driven innovation. 
         </p>
 
         <div className="home-buttons">
