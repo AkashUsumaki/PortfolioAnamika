@@ -38,7 +38,7 @@ real-world problems through data-driven innovation.
             Hire Me
           </a>
 
-          <a href="/resume.pdf" className="btn btn-outline">
+          <a href="/certificates/resume.pdf" className="btn btn-outline">
             Resume
           </a>
         </div>
